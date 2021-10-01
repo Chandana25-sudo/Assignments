@@ -1,7 +1,6 @@
 const studentDetails = [];
 const studentlists = document.querySelector('#listItems');
-// const studentlistnum = document.querySelector('#stNumber');
-// const studentlistemail = document.querySelector('#stEmail');
+
 
 function view() {
     const studentName = document.getElementById('stName').value;
@@ -23,8 +22,7 @@ function view() {
                 console.log(studentObject);
                 studentDetails.unshift(studentObject);
                 console.log(studentDetails);
-                // display the added task
-                // displaytodos();
+                
             }   else {
                 return;
             }
