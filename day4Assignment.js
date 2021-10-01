@@ -40,12 +40,12 @@ function stDisplay() {
     studentDetails.forEach((item) => {
         
         const stList = document.createElement('li');
-        stList.innerHTML = item.name+ " , " +item.phone+ " , " +item.email+ " , ";
+        stList.innerHTML = item.name+ " , " +item.phone+ " , " +item.email+ " . ";
         studentlists.appendChild(stList);
 
         
         
-        // stList.appendChild(listItems);
+        
         console.log(stList);
     })
     
